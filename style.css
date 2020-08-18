@@ -1,0 +1,89 @@
+#para {
+  font-size: 20px;
+}
+
+#navbarSupportedContent{
+	justify: left;
+
+}
+
+.dataframe { 
+  display: table;
+  border:none;
+  padding: 15px;
+  width: 100%;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.navbar-brand {
+	font-size: 35px;
+	color: white;
+	background-color: gray;
+	font-family: aria;
+	
+}	
+
+.left {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	object-fit: cover;
+}
+	
+
+
+.right {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	object-fit: cover;
+}
+
+.title {
+   font-size: 35px;
+   text: bold;
+   color: blue;
+}
+
+.c-left.RMV {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	object-fit: cover;
+}
+	
+.c-right.RMV {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	object-fit: cover;
+}
+
+.graph-title {
+	font-size: 20px;
+	font-weight: bold; 
+	font-family: courier;
+	font-style: italic;
+	color: blue;
+	text-decoration: underline;
+}	 
+
+
+@media (max-width: 1100px){
+	
+	.dataframe { 
+		  display: table;
+		  border:none;
+		  padding: 15px;
+		  width: 50%;
+	}
+}

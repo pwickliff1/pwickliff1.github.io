@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Comparison Dashboard</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+
+
+
+
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light ">	
+		<div class="col-md-10">
+			<a class="navbar-brand " href="index.html">Latitude</a>
+		</div>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav " >
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" >Plots</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="Temp.html">Temp</a>
+						<a class="dropdown-item" href="Humid.html">Humidity</a>
+						<a class="dropdown-item" href="Cloudy.html">Cloudy</a>
+						<a class="dropdown-item" href="WindSpeed.html">Wind Speed</a>
+					</div>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="Comparison.html">Comparison<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item active"> 
+					<a class="nav-link" href="Data.html">Data</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+		
+
+<div class="col-md-12">
+	<p class="title" >Comparison: Latitude vs. X<br></p>
+	<!-- <h1 style="font-size: 55px;">Comparison: Latitude vs. X <br><br></h1> -->
+	<p style="font-size: 15px">Click any plot to get an in-depth analysis<br></p>
+</div>
+	
+<div class="col-md-12">
+		
+	<div class="col-md-6 text-center">	
+		<p class="graph-title">.vs Max Temperature</p>
+		<a target="_blank" href="Temp.html">
+			<img class="c-left" src="WebVisualizations\visualizations\LatvsTemp.png" alt="Temperature Map">
+		</a>
+		<br><br>		
+	    <p class="graph-title">vs. Humidity</p>
+		<a target="_blank" href="Humid.html">
+			<img class="c-right" target="_blank" src="WebVisualizations\visualizations\LatvsHumidity.png" alt="Humidity Map">
+		</a>
+	</div >
+		
+	<div class="col-md-6 text-center">
+		<p class="graph-title">vs. Cloudiness</p>
+		<a target="_blank" href="Cloudy.html">
+			<img class="c-left" src="WebVisualizations\visualizations\LatvsCloudy.png" alt="Cloudiness Map">
+		</a>
+		<br><br>			
+		<p class="graph-title">vs. Wind Speed</p>
+		<a target="_blank" href="WindSpeed.html">
+			<img class="c-right" target="_blank" src="WebVisualizations\visualizations\LatvsWind.png" alt="Wind Speed Map">
+		</a>
+	</div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

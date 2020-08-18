@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Visualization Dashboard</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+
+
+
+
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light ">	
+		<div class="col-md-10">
+			<a class="navbar-brand " href="index.html">Latitude</a>
+		</div>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav " >
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" >Plots</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="Temp.html">Temp</a>
+						<a class="dropdown-item" href="Humid.html">Humidity</a>
+						<a class="dropdown-item" href="Cloudy.html">Cloudy</a>
+						<a class="dropdown-item" href="WindSpeed.html">Wind Speed</a>
+					</div>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="Comparison.html">Comparison<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item active"> 
+					<a class="nav-link" href="Data.html">Data</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+		
+
+<div class="jumbotron w3-container col-md-8">
+	<h1>Wind Speed <br><br></h1>
+	<img src="WebVisualizations\visualizations\LatvsWind.png" style="width:600px;height:500px;" align="center"/>
+	<p id="para">The graph is analyzing the wind speed as you move away from the equator. The southern hemisphere tends have more recordable winds during this time of year than the northern hemisphere. 
+	This may be due to the tilt of the earth at the time of year this data was gathered and the higher temperatures the more south you go..</p>
+</div>
+	
+    <div class="graph-container w3-container col-md-4">
+		
+		<p class="title" >Visualizations</p>
+		<div class="w3-container col-md-6">	
+		<a target="_blank" href="WebVisualizations\visualizations\LatvsTemp.png">
+			<img class="left" src="WebVisualizations\visualizations\LatvsTemp.png" alt="Temperature Map">
+		</a>
+		<p><em>Temperature Map</em></p>
+		
+   
+		<a target="_blank" href="WebVisualizations\visualizations\LatvsHumidity.png">
+			<img class="right" target="_blank" src="WebVisualizations\visualizations\LatvsHumidity.png" alt="Humidity Map">
+		</a>
+		<p><em>Humidity Map</em></p>
+		</div >
+		
+		<div class="w3-container col-md-6">
+		<a target="_blank" href="WebVisualizations\visualizations\LatvsCloudy.png">
+			<img class="left" src="WebVisualizations\visualizations\LatvsCloudy.png" alt="Cloudiness Map">
+		</a>
+		<p><em>Cloudiness Map</em></p>
+		
+		
+		<a target="_blank" href="WebVisualizations\visualizations\LatvsWind.png">
+			<img class="right" target="_blank" src="WebVisualizations\visualizations\LatvsWind.png" alt="Wind Speed Map">
+		</a>
+		<p><em>Wind Speed Map</em></p>
+		</div>
+		
+	</div>
+ 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
